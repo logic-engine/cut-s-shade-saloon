@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuts'n'Shades | Modern Bridal Luxury by Marium Panjwani</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Correct Lucide Implementation -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+     <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div id="loader">
+        <div class="loader-content">
+            <h2 class="serif" style="font-size: 2rem;">CUTS'N'SHADES</h2>
+            <p style="font-size: 0.6rem; margin-top: 10px;">ARTISTRY BY MARIUM PANJWANI</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <a href="#" class="logo">C'S</a>
+        <div class="nav-links">
+            <a href="#looks">Gallery</a>
+            <a href="#concierge">Concierge</a>
+            <a href="#book">Reserve</a>
+        </div>
+        <a href="tel:03323953973" style="text-decoration:none; font-weight:600; color:var(--dusty-rose); font-size:0.75rem; letter-spacing:1px;">ENQUIRY</a>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero">
+        <div class="hero-bg-accent"></div>
+        <div class="hero-grid">
+            <div class="hero-text">
+                <span class="section-tag">Established Artistry</span>
+                <h1>Ethereal <span>Bridal</span><br>Luxe.</h1>
+                <p style="max-width: 450px; margin-bottom: 40px; color: #777;">A sanctuary where timeless tradition meets modern sophistication. We curate looks that don't just transform—they reveal.</p>
+                <a href="#book" class="btn-ethereal">Book Your Session</a>
+            </div>
+            <div class="hero-image-container">
+                <img src="https://images.unsplash.com/photo-1594462283024-297ce42cd13f?auto=format&fit=crop&q=80&w=1200" alt="Bridal Art" class="hero-img">
+            </div>
+        </div>
+    </header>
+
+    <!-- Looks Gallery -->
+    <section id="looks">
+        <span class="section-tag">The Portfolio</span>
+        <h2 class="section-title">Signature Chronicles</h2>
+        <div class="looks-scroll">
+            <div class="look-card">
+                <img src="https://images.unsplash.com/photo-1621244101833-281b37494a97?auto=format&fit=crop&q=80&w=800" alt="Look 1">
+                <div style="margin-top:20px;">
+                    <h4 class="serif" style="font-size:1.5rem;">Soft Rose Matte</h4>
+                    <p style="font-size:0.8rem; color:var(--dusty-rose);">Nikkah Curation</p>
+                </div>
+            </div>
+            <div class="look-card">
+                <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=800" alt="Look 2">
+                <div style="margin-top:20px;">
+                    <h4 class="serif" style="font-size:1.5rem;">Dewy Pearl</h4>
+                    <p style="font-size:0.8rem; color:var(--dusty-rose);">Minimalist Glow</p>
+                </div>
+            </div>
+            <div class="look-card">
+                <img src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?auto=format&fit=crop&q=80&w=800" alt="Look 3">
+                <div style="margin-top:20px;">
+                    <h4 class="serif" style="font-size:1.5rem;">Royal Velvet</h4>
+                    <p style="font-size:0.8rem; color:var(--dusty-rose);">Barat Grandeur</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Concierge -->
+    <section id="concierge" style="background: var(--silver-silk);">
+        <span class="section-tag">Services</span>
+        <h2 class="section-title">Bridal Concierge</h2>
+        <div class="builder-container">
+            <div class="tab-list">
+                <button class="tab-trigger active" onclick="switchTab(event, 't1')">Nikkah Grace</button>
+                <button class="tab-trigger" onclick="switchTab(event, 't2')">Barat Royalty</button>
+                <button class="tab-trigger" onclick="switchTab(event, 't3')">Walima Glow</button>
+            </div>
+            <div class="tab-panels">
+                <div id="t1" class="tab-panel active">
+                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?auto=format&fit=crop&q=80&w=800" style="width:100%; height:450px; object-fit:cover; border-radius:4px;" alt="Nikkah">
+                    <div>
+                        <h3 class="serif" style="font-size:2.5rem; margin-bottom:20px;">The Graceful Start</h3>
+                        <p style="color:#666; margin-bottom:30px;">Light-catching textures designed for daytime elegance. Focus on luminous skin and soft-sculpted eyes.</p>
+                        <ul style="list-style:none;">
+                            <li style="margin-bottom:12px;">✦ High-Reflect Eye Makeup</li>
+                            <li style="margin-bottom:12px;">✦ Silk Dupatta Draping</li>
+                            <li style="margin-bottom:12px;">✦ Floral Infused Styling</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="t2" class="tab-panel">
+                    <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&q=80&w=800" style="width:100%; height:450px; object-fit:cover; border-radius:4px;" alt="Barat">
+                    <div>
+                        <h3 class="serif" style="font-size:2.5rem; margin-bottom:20px;">Timeless Royalty</h3>
+                        <p style="color:#666; margin-bottom:30px;">Deep pigments and architectural hair settings for a look that commands the room.</p>
+                        <ul style="list-style:none;">
+                            <li style="margin-bottom:12px;">✦ 24-Hour Airbrush Finish</li>
+                            <li style="margin-bottom:12px;">✦ Traditional Heavy Setting</li>
+                            <li style="margin-bottom:12px;">✦ Sculpted Lip Curation</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="t3" class="tab-panel">
+                    <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&q=80&w=800" style="width:100%; height:450px; object-fit:cover; border-radius:4px;" alt="Walima">
+                    <div>
+                        <h3 class="serif" style="font-size:2.5rem; margin-bottom:20px;">Evening Luster</h3>
+                        <p style="color:#666; margin-bottom:30px;">Sophisticated evening palettes featuring cool tones and celebrity-inspired hair waves.</p>
+                        <ul style="list-style:none;">
+                            <li style="margin-bottom:12px;">✦ Hollywood Sleek Waves</li>
+                            <li style="margin-bottom:12px;">✦ Shimmer-wash Eyeshadow</li>
+                            <li style="margin-bottom:12px;">✦ Modern Jewel Setting</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation -->
+    <section id="book" style="padding-bottom: 0;">
+        <div style="background: var(--rose-quartz); height: 250px; border-radius: 10px;"></div>
+        <div class="booking-box">
+            <h2 class="serif" style="text-align:center; font-size:3rem; margin-bottom:40px;">Request a Consult</h2>
+            <form onsubmit="handleBooking(event)">
+                <div class="form-grid">
+                    <div class="input-wrap">
+                        <input type="text" placeholder=" " required>
+                        <label>Full Name</label>
+                    </div>
+                    <div class="input-wrap">
+                        <input type="tel" placeholder=" " required>
+                        <label>WhatsApp Number</label>
+                    </div>
+                    <div class="input-wrap">
+                        <input type="date" placeholder=" " required>
+                        <label>Event Date</label>
+                    </div>
+                    <div class="input-wrap">
+                        <select required>
+                            <option value="" disabled selected></option>
+                            <option>Barat Bridal</option>
+                            <option>Walima Bridal</option>
+                            <option>Nikkah / Engagement</option>
+                            <option>Party / Festive</option>
+                        </select>
+                        <label>Event Type</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn-ethereal" style="width:100%; border:none; margin-top:40px; cursor:pointer;">Check Availability</button>
+            </form>
+            <div id="success-msg" style="display:none; text-align:center; padding-top:20px;">
+                <p class="serif" style="font-size:1.5rem; color:var(--dusty-rose);">Thank you. Our concierge will contact you shortly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-main">
+            <div>
+                <h3 class="logo" style="display:block; margin-bottom:20px;">C'S</h3>
+                <p style="color:#888; font-size:0.9rem;">Modern bridal artistry by Marium Panjwani. Creating stories through shades since 2018.</p>
+            </div>
+            <div>
+                <h4 class="serif" style="margin-bottom:20px;">Discover</h4>
+                <p style="font-size:0.8rem; margin-bottom:10px;"><a href="#concierge" style="text-decoration:none; color:inherit;">Packages</a></p>
+                <p style="font-size:0.8rem; margin-bottom:10px;"><a href="#looks" style="text-decoration:none; color:inherit;">The Gallery</a></p>
+            </div>
+            <div>
+                <h4 class="serif" style="margin-bottom:20px;">Location</h4>
+                <p style="font-size:0.8rem; color:#888;">Plot 148, Block 3, Sharfabad,<br>Karachi, Pakistan</p>
+                <p style="font-size:0.8rem; color:#888; margin-top:10px;">+92 332 3953973</p>
+            </div>
+        </div>
+        <div style="border-top:1px solid rgba(0,0,0,0.05); padding-top:30px; display:flex; justify-content:space-between; font-size:0.65rem; color:#aaa; letter-spacing:1px;">
+            <p>© 2024 CUTS'N'SHADES. ALL RIGHTS RESERVED.</p>
+            <p>DESIGNED BY MARIUM PANJWANI</p>
+        </div>
+    </footer>
+
+    <!-- Floating Actions -->
+    <div class="fab-container">
+        <a href="https://wa.me/923323953973" class="fab" title="WhatsApp">
+            <i data-lucide="message-circle"></i>
+        </a>
+        <a href="tel:03323953973" class="fab" title="Call Us">
+            <i data-lucide="phone"></i>
+        </a>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
